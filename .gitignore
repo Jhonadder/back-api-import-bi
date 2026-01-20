@@ -1,0 +1,8 @@
+# Ignora la carpeta node_modules y todo lo que tiene adentro
+node_modules/
+
+# Ignora una carpeta de compilación
+dist/
+
+# Ignora una carpeta de logs en cualquier nivel del proyecto
+**/logs/
