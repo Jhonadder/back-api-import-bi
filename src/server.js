@@ -1,3 +1,4 @@
+import "dotenv/config"; // o dotenv.config() al tope
 import { env } from "./config/env.js";
 import { createApp } from "./app.js";
 import { getPool } from "./db/pool.js";
