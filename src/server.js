@@ -6,7 +6,7 @@ import { getPool } from "./db/pool.js";
 async function main() {
   await getPool(); // valida conexión al iniciar
   const app = createApp();
-  app.listen(env.port, () => {
+  app.listen(env.port,'0.0.0.0', () => {
     console.log(`API on http://localhost:${env.port}`);
   });
 }
